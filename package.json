@@ -1,6 +1,6 @@
 {
   "name": "ipinfo-demo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "commonjs",
   "description": "A simple TypeScript project that give infomation about ip address.",
   "main": "src/index.js",
