@@ -1,13 +1,13 @@
 {
   "name": "ipinfo-demo",
   "version": "1.0.1",
-  "type": "module",
+  "type": "commonjs",
   "description": "A simple TypeScript project that give infomation about ip address.",
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npx tsx src/index.ts",
+    "start": "node src/index.js",
     "dev": "npx tsx src/index.ts",
     "inspect": "npx @modelcontextprotocol/inspector tsx src/index.ts"
   },
