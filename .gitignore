@@ -1,5 +1,5 @@
 # 忽略编译后的 JavaScript 文件
-*.js
+# *.js
 *.js.map
 
 # 忽略 Node.js 模块目录
