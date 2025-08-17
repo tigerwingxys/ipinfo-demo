@@ -39,5 +39,13 @@ mcpServer.registerTool(
   }
 );
 
-const transport = new StdioServerTransport();
-await mcpServer.connect(transport);
+async function main() {
+  const transport = new StdioServerTransport();
+  await mcpServer.connect(transport);
+  console.log("MCP server is running...");
+}
+
+main().catch((error) => {
+  console.error("Server error:", error);
+  process.exit(1);
+});

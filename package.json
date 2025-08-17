@@ -1,6 +1,6 @@
 {
   "name": "ipinfo-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A simple TypeScript project that give infomation about ip address.",
   "main": "src/index.js",
@@ -12,6 +12,7 @@
     "inspect": "npx @modelcontextprotocol/inspector tsx src/index.ts"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "tsx": "^4.20.4",
     "typescript": "^5.5.4"
   },
@@ -20,7 +21,7 @@
     "url": "https://github.com/tigerwingxys/ipinfo-demo.git"
   },
   "author": "allrivers",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.3",
     "zod": "^3.23.8",

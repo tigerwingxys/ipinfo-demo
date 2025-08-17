@@ -1,4 +1,4 @@
-# TypeScript Hello World Project
+# IP Info Project
 
 This is a simple TypeScript project that giving the infomation about the giving IP address. 
 
