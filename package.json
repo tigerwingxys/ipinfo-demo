@@ -11,6 +11,7 @@
     "inspect": "npx @modelcontextprotocol/inspector tsx src/index.ts"
   },
   "devDependencies": {
+    "tsx": "^4.20.4",
     "typescript": "^5.5.4"
   },
   "repository": {
