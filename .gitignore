@@ -1,0 +1,16 @@
+# 忽略编译后的 JavaScript 文件
+*.js
+*.js.map
+
+# 忽略 Node.js 模块目录
+node_modules/
+
+# 忽略 IDE 和编辑器相关的特定文件和文件夹
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+pnpm-lock.yaml
+.idea/
+
